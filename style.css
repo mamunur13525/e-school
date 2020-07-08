@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Poppins', sans-serif;
 }
@@ -40,6 +43,8 @@ header{
 	color:white;
 	border-radius: 25px;
 	border: none;
+	 cursor: pointer;
+    outline: none;
 }
 .title{
 	font-size: 22px;
@@ -53,6 +58,7 @@ header{
     padding-top: 40px;
     transition:box-shadow .3s ease;
     border-radius: 10px;
+    cursor: pointer;
 }
 .box:hover{
 	 box-shadow: 0px 10px 10px lightgray;
@@ -71,7 +77,60 @@ header{
 	font-size:22px;
 }
 .card .card-body .button {
-    padding: 5px 17px;
-    font-size: 14px;
+    padding: 4px 15px;
+    font-size: 13px;
 }
+.card-body p{
+	font-size:12px;
+	color:#a0a0a0;
+}
+.card-footer{
+	padding:5px 1.25rem;
+	border:none;
+	background:none;
+}
+.card-footer p{
+	font-size:12px;
+	font-size:500;
+}
+.testimonial-description{
+	font-size:12px;
+	line-height: 2;
+	margin-top:10px;
+}
+.testimonial-width{
+	width:70%;
+	margin:auto;
+}
+footer{
+	padding:50px 0px 0px;
+	background:#282531;
+	color:lightgray;
+}
+footer .row {
+	font-size: 11px;
+}
+footer .row ul{
+	list-style: none;
+}
+footer .row ul li{
+	margin:5px 0px;
+}
+footer .row ul li a{
+	color:lightgray;
 
+
+}
+footer .row ul li:first-child a{
+	font-weight: bold;
+	color:white;
+	font-size: 12px;
+}
+.copyright{
+	margin:0px;
+	font-size:11px;
+	padding:3rem 0px 1rem;
+}
+#testimonial{
+	    padding-bottom: 3rem;
+}

@@ -5,9 +5,12 @@
 	<title>e-school</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- Font-awesome Link -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<!-- Start Heading Part -->
 	<header>
 		<div class="container">
@@ -20,13 +23,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#Books">Books <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Courses</a>
+        <a class="nav-link" href="#Courses">Courses</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Others</a>
+        <a class="nav-link" href="#testimonial">Others</a>
       </li>
      <li class="nav-item">
         <a class="nav-link" href="#">Blog</a>
@@ -57,7 +60,7 @@
 	</header>
 	<!-- End Heading Part -->
 <!-- Start Topics Section -->
-	<div class="container py-5">
+	<div class="container py-5" id="Books">
 		<div class="row py-5">
 			<div class="col-md-3 text-center box">
 				<img class="img-fluid w-25 m-auto mb-3" src="ICON/book.png" alt="">
@@ -84,10 +87,10 @@
 	</div>
 <!-- End Topics Section -->
 <!-- Start Course Section -->
-<main>
+<main id="Courses">
 	<div class="container py-5">
 		<h1 class="text-center font-weight-bold">Online Courses</h1>
-		<div class="card-deck">
+		<div class="card-deck mt-5">
   <div class="card">
     <img class="card-img-top" src="Photos/Morder pyschology.png" alt="Card image cap">
     <div class="card-body">
@@ -95,8 +98,13 @@
       <p class="card-text">Designation</p>
       	<button class="button">Buy Course</button>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+    <div class="card-footer d-flex justify-content-between">
+      <small class="text-muted d-flex">
+      <i class='far fa-calendar-alt mt-1 mr-1 icon'></i><p>Start 20 April,2021</p>
+      </small>
+      <small class="text-muted d-flex">
+  <i class='fas fa-user-friends mt-1 mr-1 icon'></i>  <p>60 seats</p>
+      </small>
     </div>
   </div>
   <div class="card">
@@ -106,12 +114,12 @@
       <p class="card-text">Designation</p>
       	<button class="button">Buy Course</button>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">
-		<i></i>
+     <div class="card-footer d-flex justify-content-between">
+      <small class="text-muted d-flex">
+      <i class='far fa-calendar-alt mt-1 mr-1 icon'></i><p>Start 20 April,2021</p>
       </small>
-      <small class="text-muted">
-		
+      <small class="text-muted d-flex">
+  <i class='fas fa-user-friends mt-1 mr-1 icon'></i>  <p>60 seats</p>
       </small>
     </div>
   </div>
@@ -122,8 +130,13 @@
       <p class="card-text">Designation</p>
       	<button class="button">Buy Course</button>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+     <div class="card-footer d-flex justify-content-between">
+      <small class="text-muted d-flex">
+      <i class='far fa-calendar-alt mt-1 mr-1 icon'></i><p>Start 20 April,2021</p>
+      </small>
+      <small class="text-muted d-flex">
+  <i class='fas fa-user-friends mt-1 mr-1 icon'></i>  <p>60 seats</p>
+      </small>
     </div>
   </div>
 </div>	
@@ -132,6 +145,99 @@
 
 
 <!-- End Course Section -->
+<!-- Start Testimonial Section -->
+<section id="testimonial">
+	<div class="container py-5">
+		<h1 class="text-center mb-5 font-weight-bold">Testimonial</h1>
+	
+
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     	<div class="row d-flex align-items-center testimonial-width">
+			<div class="col-md-2">
+				<img class="img-fluid" src="Photos/Man.png" alt="">
+			</div>
+			<div class="col-md-10">
+				<p class="testimonial-description">There are many variations of passages of larem ipsum available, but the majority have suffered alternation in some form,by injected humour, or randomised words which dont't look even slightly believable.</p>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+     	<div class="row d-flex align-items-center testimonial-width">
+			<div class="col-md-2">
+				<img class="img-fluid" src="Photos/Man.png" alt="">
+			</div>
+			<div class="col-md-10">
+				<p class="testimonial-description">There are many variations of passages of larem ipsum available, but the majority have suffered alternation in some form,by injected humour, or randomised words which dont't look even slightly believable.</p>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+    	<div class="row d-flex align-items-center testimonial-width">
+			<div class="col-md-2">
+				<img class="img-fluid" src="Photos/Man.png" alt="">
+			</div>
+			<div class="col-md-10">
+				<p class="testimonial-description">There are many variations of passages of larem ipsum available, but the majority have suffered alternation in some form,by injected humour, or randomised words which dont't look even slightly believable.</p>
+			</div>
+		</div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	</div>
+</section>
+<!-- End Testimonial Section -->
+<!-- Start Footer Section -->
+<footer>
+	<div class="container">
+		<div class="row d-flex justify-content-around">
+			<div class="col-md-4">
+				<p>Million of people of all ages and from all around the world are improving their lives with us</p>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li><a href="#">Course</a></li>
+					<li><a href="#">Graphic Design</a></li>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Marketing</a></li>
+					<li><a href="#">Engineering</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+					<ul>
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Graphic </a></li>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Marketing</a></li>
+					<li><a href="#">Engineering</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+					<ul>
+					<li><a href="#">Useful Link</a></li>
+					<li><a href="#">Graphic Design</a></li>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Marketing</a></li>
+					<li><a href="#">Engineering</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<p class="text-center copyright">All Right &copy;2020 Reserved By Mamun</p>
+</footer>
+<!-- End Footer Section -->
 
 
 
