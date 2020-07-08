@@ -229,6 +229,26 @@ footer .row ul li:first-child a {
 #testimonial {
 	padding-bottom: 3rem;
 }
+#blog .card{
+	border-radius: 0px;
+	box-shadow: none;
+	border:1px solid lightgray;
+}
+#blog .card .btn.btn-primary{
+	display: block;
+	background-image:linear-gradient(45deg, #00a164, #00d41c);
+	border:none;
+	font-weight: 500;
+}
+#blog .card .card-text{
+	color:gray;
+}
+#blog .card .btn.btn-primary:hover{
+	background-image: linear-gradient(45deg, #018552, #009c15);
+}
+#blog .card img{
+	padding:0px;
+}
 .h1-after::after{
 	content:'';
 	height:4px;
@@ -244,6 +264,9 @@ footer .row ul li:first-child a {
 @media(max-width:991px) {
 	.navbar-nav.ml-auto li {
 		margin: auto;
+	}
+	.third-blog{
+		margin-top:14px;
 	}
 
 }
@@ -286,5 +309,20 @@ footer .row ul li:first-child a {
 	.main h3 {
 
 		line-height: 200%;
+	}
+	#blog .col-md-6{
+		width: 60%!important;
+		margin: auto!important;
+	}
+}
+@media(max-width:575px){
+	.btn.btn-lg.btn-info.btn-block {
+		margin-top: 12px;
+	}
+}
+@media(max-width:400px){
+	#blog .col-md-6{
+		margin-left: 22px !important;
+		
 	}
 }
